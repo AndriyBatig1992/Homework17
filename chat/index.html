@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <h1>Exchange rate</h1>
+  </header>
+  <div class="container">
+    <form id="formChat">
+      <input type="text" id="textField" placeholder="Enter the command: exchange або exchange n (0 < n < 10)" />
+      <button type="submit">Get</button>
+    </form>
+    <div class="request">
+      <input type="text" id="amountField" placeholder="Enter the amount:" />
+      <select id="currencySelect">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+    </div>
+    <div class="Button">
+        <button type="button" id="buyButton">Hand over currency</button>
+        <button type="button" id="sellButton">Buy currency</button>
+    </div>
+    <div id="subscribe">
+      <h3>Result:</h3>
+      <div id="exchangeResult">Waiting for the result...</div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

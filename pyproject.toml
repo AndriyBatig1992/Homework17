@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "homework17"
+version = "0.1.0"
+description = ""
+authors = ["AndriyBatig1992 <starickova.tan@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

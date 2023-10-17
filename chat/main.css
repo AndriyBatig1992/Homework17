@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 70vw;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+.request {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;}
+
+
+.Button {  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  space-between: 2rem;}
+
+
+#sellButton, #buyButton  {
+  margin-left: 1rem;
+  color: white;
+  width: 20%;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+#sellButton {
+  background: linear-gradient(90deg, #f5502e, #ff5733);
+}
+
+#sellButton:hover {
+  background:linear-gradient(90deg, #FF8C00, #FFA500);
+  transform: scale(1.05);
+}
+
+#buyButton {
+  background-color: #007BFF;
+
+}
+
+#buyButton:hover {
+  background: linear-gradient(90deg, #007BFF, #00BFFF);
+  transform: scale(1.05);
+}
+
+form button[type="submit"] {
+  width: 8rem;
+   padding: 1rem 2rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background: linear-gradient(90deg, #007BFF, #00BFFF);
+  transform: scale(1.05);
+}
+
+form input {
+  width: 45%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.request input {
+  width: 30%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+#subscribe {
+  margin: 2rem 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 2%;
+  min-height: 25vh;
+  text-align: center;
+}
+
+.exchange-line {
+  padding: 0.2rem;
+}
+
+#exchangeResult {
+  padding-bottom: 0.2rem;
+}
